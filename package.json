@@ -1,0 +1,21 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Api de usuarios para prueba tecnica de woomup",
+  "main": "index.js",
+  "scripts": {
+    "star": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Jordan Hernando Cortes",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.0.2",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
